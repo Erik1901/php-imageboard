@@ -1,0 +1,67 @@
+body{
+    background: black;
+    color:whitesmoke;
+    margin: 0px;
+}
+input, textarea{
+    background:black;
+    color: whitesmoke;
+    resize: none;
+}
+input[type="submit"],button{
+    background: black;
+    color:whitesmoke;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.own_image{
+    border: 3px solid white;
+}
+.postcontainer{
+    width: 95%;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid white;
+}
+.post{
+    border: 2px solid white;
+    padding: 8px;
+    background-image: linear-gradient(to right,rgb(79, 1, 79),orange);
+}
+#creation_form{
+    outline: 2px solid white;
+    display:grid;
+    grid-template-columns: auto auto;
+    height:180px;
+}
+#loginform{
+    width: auto;
+    height: auto;    
+    display: grid;
+    grid-template-columns: auto auto;
+    outline: 2px solid white;
+}
+#post_create{
+    grid-column: 1 / span 2;
+}
+#grid_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+#writearea{
+    height:fit-content;
+}
+#formcontainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
